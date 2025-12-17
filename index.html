@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The 2 Men Studio | International Photography</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: 'var(--color-primary)',
+              secondary: 'var(--color-secondary)',
+              surface: 'var(--color-surface)',
+              text: 'var(--color-text)',
+            },
+            fontFamily: {
+              heading: ['var(--font-heading)', 'serif'],
+              body: ['var(--font-body)', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      :root {
+        --color-primary: #1a1a1a;
+        --color-secondary: #4a4a4a;
+        --color-surface: #ffffff;
+        --color-text: #1a1a1a;
+        --font-heading: 'Playfair Display';
+        --font-body: 'Lato';
+      }
+      .dark {
+        --color-primary: #f5f5f5;
+        --color-secondary: #a3a3a3;
+        --color-surface: #121212;
+        --color-text: #f5f5f5;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.10.1",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+</head>
+  <body class="bg-surface text-text font-body transition-colors duration-300">
+    <div id="root"></div>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <defs>
+    <style>
+      .cls-1 { fill: none; stroke: #C1A676; stroke-width: 3px; stroke-miterlimit: 10; }
+      .cls-2 { fill: #C1A676; font-family: 'Playfair Display', serif; }
+      .cls-3 { font-size: 48px; letter-spacing: 0.1em; }
+      .cls-4 { font-size: 18px; letter-spacing: 0.4em; font-family: 'Lato', sans-serif; }
+      .cls-5 { fill: #C1A676; }
+    </style>
+  </defs>
+  <!-- Camera Outline -->
+  <path class="cls-1" d="M350,200 H150 a10,10 0 0,1 -10,-10 V90 a10,10 0 0,1 10,-10 h50 l15,-20 h70 l15,20 h50 a10,10 0 0,1 10,10 v100 a10,10 0 0,1 -10,10 Z"/>
+  
+  <!-- Stylized '2' in the center (approximate path) -->
+  <path class="cls-5" d="M230,150 c0,-20 15,-35 35,-35 c20,0 35,15 35,30 c0,20 -20,40 -40,55 h45 v10 h-60 v-10 c20,-15 45,-35 45,-55 c0,-10 -5,-18 -18,-18 c-12,0 -18,8 -20,15 Z" transform="translate(10, -20)"/>
+  
+  <!-- Text -->
+  <text class="cls-2 cls-3" x="250" y="270" text-anchor="middle">THE 2 MAN</text>
+  <text class="cls-2 cls-4" x="250" y="310" text-anchor="middle">STUDIO</text>
+  
+  <!-- Horizontal Lines -->
+  <line class="cls-1" x1="100" y1="305" x2="180" y2="305" stroke-width="1"/>
+  <line class="cls-1" x1="320" y1="305" x2="400" y2="305" stroke-width="1"/>
+</svg>
